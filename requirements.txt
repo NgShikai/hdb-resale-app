@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 streamlit
 pandas
 numpy
@@ -6,4 +7,14 @@ joblib
 requests
 streamlit-lottie
 matplotlib
+=======
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+requests
+streamlit-lottie
+matplotlib
+>>>>>>> 0641659cf38a657ab77f6c8fe9fd3410ce4dece5
 seaborn
