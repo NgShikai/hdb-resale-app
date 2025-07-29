@@ -282,7 +282,7 @@ else:
         if test_resp.status_code == 200:
             st.image(
                 "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-                caption="Singapore HDB Flats", use_container_width=True)
+                caption="Singapore HDB Flats")
         else:
             st.warning("Unable to load image from Unsplash: Received unexpected status code.")
     except Exception as e:
