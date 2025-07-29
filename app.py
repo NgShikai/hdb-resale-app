@@ -275,7 +275,7 @@ else:
     st.markdown("## Predicted Price")
     st.info("\U0001F448 Configure the sidebar inputs and click **Predict Price** to get started")
     try:
-        st.image("https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+        st.image("images/hdb-resale-image.png",
                  caption="Singapore HDB Flats", use_container_width=True)
     except Exception:
         st.warning("Image could not be loaded.")
