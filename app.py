@@ -1,3 +1,10 @@
+from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.linear_model import Ridge, LinearRegression, Lasso
+from sklearn.tree import DecisionTreeRegressor
+import joblib
 import streamlit as st
 import pandas as pd
 import numpy as np
